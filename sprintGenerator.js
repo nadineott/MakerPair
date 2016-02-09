@@ -1,26 +1,3 @@
-//convert all studnet names entered into array called students
-var studentList = new Array;
-function makeStudentsArray() {
-  //console.log("BAM");
-    var inputs = document.getElementsByTagName('input');
-    for (var i = 0; i < inputs.length-1; i++) {
-      var student = inputs[i].value;
-        if (student !== "") { 
-            studentList[i] = student;
-        }
-      }
-      //console.log(studentList);
-      return studentList;
-    }
-
-var showPairs = function() {
-  //generate array of students from form
-  var list = makeStudentsArray();
-  //feed this array to sprint generator and return sprints
-  generateSprints(list);
-}
-
-//below is sprint generating logic
 
 var generateSprints = function(studentList) {
 
@@ -154,3 +131,11 @@ console.log("sprint 15: "+ sprint15);
 
 return (sprint1, sprint2, sprint3, sprint4, sprint5, sprint6, sprint7, sprint8, sprint9, sprint10, sprint11, sprint12, sprint13, sprint14, sprint15);
 }
+
+
+
+
+
+
+
+

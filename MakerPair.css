@@ -1,3 +1,42 @@
 body {
-    background-color: #E0E0E0;    
+    background-color: white;    color: white;
+    background: linear-gradient(to right, #000099, white, white, white, white, white, white, white, white, white, #000099);
+}
+
+.logo {
+  max-width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.dataEntry {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  max-width: 30%;
+  margin-left:auto;
+  margin-right: auto;
+  color: #243ac7;
+}
+
+button {
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3455d9;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  margin-top: 5px;
+  border: 0;
+  margin-left: 17%;
+  margin-right:50%;
+
+}
+
+button:hover {
+  background: #243ac7;
+  text-decoration: none;
+  border: 0;
 }

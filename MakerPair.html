@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-
+<html ng-app = "myApp">
 <head>
   <title> 
     MakerPair
   </title>
+  <!-- styles -->
   <link rel= "stylesheet" href="MakerPair.css" type="text/css">
-  <script src = "MakerPair.js"> </script>
+  <!-- angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <!-- module -->
+  <script src="MakerPair.js"></script>
+  <!-- controller -->
+  <script src = "MakerPairController.js"></script>
 
 </head>
 
-<body>
+<body ng-app = "MyApp">
+  <div ng-controller = "MakerPairController" >
+
   <h1>MakerPair</h1>
-
-
 
   <form>
     <input type="text"><br>
@@ -22,12 +28,6 @@
     <input type="text"><br>
     <input type="text"><br>
     <input type="text"><br>
-<!--
-    <input type="text"><br>
-    <input type="text"><br>
-    <input type="text"><br>
-    <input type="text"><br>
-    <input type="text"><br>
 
     <input type="text"><br>
     <input type="text"><br>
@@ -46,12 +46,20 @@
     <input type="text"><br>
     <input type="text"><br>
     <input type="text"><br>
-  -->
+
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+  
   </form>
 
-<input type="button" onclick="makeStudentsArray();" value="Show pairs" />
-
-
+<input type="button" onclick="makeStudentsArray()" value="Show pairs"/>
+ </div>
 </body>
 
 </html>
+
+
+
